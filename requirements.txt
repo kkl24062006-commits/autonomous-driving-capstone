@@ -1,0 +1,10 @@
+# For running notebooks locally (EDA notebook only)
+pandas>=1.5
+matplotlib>=3.7
+seaborn>=0.12
+numpy>=1.24
+
+# Vehicle detection notebook is designed for Google Colab
+# YOLOv5 dependencies are installed automatically inside the notebook via:
+#   !git clone https://github.com/ultralytics/yolov5
+#   !pip install -r yolov5/requirements.txt
